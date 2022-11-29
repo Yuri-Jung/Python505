@@ -1,0 +1,6 @@
+CREATE TABLE tblmember2(
+ id CHAR(20) PRIMARY KEY,
+ NAME CHAR(20) NOT NULL,
+ email CHAR(20) NOT NULL,
+ YEAR CHAR(4) NOT null
+)
