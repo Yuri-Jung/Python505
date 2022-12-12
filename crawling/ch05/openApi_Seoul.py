@@ -65,18 +65,4 @@ def main():
     result_df = pd.DataFrame(result, columns=columns)
     result_df.to_csv('./data/민주주의서울자유제안.csv', index=False, encoding='cp949')
 if __name__ == '__main__':
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    main()
